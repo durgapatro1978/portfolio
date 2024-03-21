@@ -898,7 +898,15 @@ pre code {
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
+  padding-top:20px;
 }
+
+@media (min-width: 768px)
+{
+padding-top:150px; 
+}
+
+
 .container-fluid:before, .container-fluid:after {
   content: " ";
   display: table;

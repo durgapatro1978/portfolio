@@ -13,7 +13,7 @@
 * ======================================================= */
 body {
   font-family: "Quicksand", Arial, sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 15px;
   line-height: 1.8;
   color: rgba(0, 0, 0, 0.7); }
@@ -39,6 +39,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display", Georgia, serif;
   font-weight: 400;
   margin: 0 0 30px 0; }
+
 
 figure {
   margin-bottom: 2.5em;
@@ -191,7 +192,7 @@ figure {
     text-align: center;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
-    padding: 0 20px;
+    padding: 0 5px;
     width: 100%; }
     @media screen and (max-width: 768px) {
       #colorlib-aside .colorlib-footer {
@@ -235,7 +236,7 @@ figure {
   background: #fff url(../images/loader.gif) no-repeat center center;
   width: 100%;
   float: left;
-  margin-bottom: 10em;
+  margin-bottom: 2em;
   clear: both; }
   #colorlib-hero .flexslider {
     border: none;
@@ -262,7 +263,7 @@ figure {
           top: 100px; } }
       #colorlib-hero .flexslider .flex-control-nav li {
         display: block;
-        margin-bottom: 10px; }
+        margin-bottom: 2px; }
         #colorlib-hero .flexslider .flex-control-nav li a {
           background: rgba(0, 0, 0, 0.5);
           -webkit-box-shadow: none;
@@ -380,8 +381,8 @@ body.offcanvas {
 .colorlib-about,
 .colorlib-services,
 .colorlib-contact {
-  padding-top: 4em;
-  padding-bottom: 9em;
+  padding-top: 2em;
+  padding-bottom: 2em;
   clear: both;
   width: 100%;
   display: block; }
@@ -394,8 +395,8 @@ body.offcanvas {
     .colorlib-about,
     .colorlib-services,
     .colorlib-contact {
-      padding-top: 5em;
-      padding-bottom: 8em; } }
+      padding-top: 2em;
+      padding-bottom: 2em; } }
 
 .author-img {
   background-size: cover;
